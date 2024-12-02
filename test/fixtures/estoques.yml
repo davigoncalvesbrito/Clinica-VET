@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  descricao: MyText
+  quantidade: 1
+  unidade_de_medida: MyString
+  data_de_validade: 2024-11-26
+  fornecedor: MyString
+  preco_de_compra: 9.99
+  localizacao: MyString
+  codigo_do_produto: MyString
+  categoria: MyString
+  data_de_entrada: 2024-11-26
+
+two:
+  nome: MyString
+  descricao: MyText
+  quantidade: 1
+  unidade_de_medida: MyString
+  data_de_validade: 2024-11-26
+  fornecedor: MyString
+  preco_de_compra: 9.99
+  localizacao: MyString
+  codigo_do_produto: MyString
+  categoria: MyString
+  data_de_entrada: 2024-11-26

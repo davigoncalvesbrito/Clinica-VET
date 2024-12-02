@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: 7Zu4LOiQt7nTJQ2S
+  host: currently-wondrous-joey.data-1.use1.tembo.io
+  port: 5432
+#porta
+development:
+  <<: *default
+  database: db/development
+
+test:
+  <<: *default
+  database: db/test
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+
+production:
+  <<: *default
+  database: db/production
