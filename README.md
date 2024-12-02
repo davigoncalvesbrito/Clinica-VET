@@ -120,4 +120,5 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
 ## Licença
 
-Este projeto está sob a licença [MIT](LICENSE).
+Este projeto está sob a licença [MIT](LICENSE), Copyright (c) 2024 Davi Gonçalves.
+
